@@ -1,0 +1,2 @@
+Para executar o programa basta abrir o terminal de comandos, acessar a pasta onde se encontra os códigos do algoritimo e digitar make na linha de comando para criar o arquivo tp que será o arquivo executável do programa.
+Para inicializar o programa basta digitar ./tp -i 'arquivo de entrada.txt' -o 'arquivo de saida.txt' e executar o comando que o programa ira automaticamente ler os arquivos inseridos no arquivo de entrada e no fim ira inserir os resultados no arquivo de saida.

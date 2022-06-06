@@ -1,0 +1,17 @@
+CADASTRA 1
+CADASTRA 2
+CADASTRA 3
+REMOVE 2
+ENTREGA 3 4 bom dia meu amigo, como voce esta? FIM
+ENTREGA 1 7 Boa tarde, segue em anexo os docs. FIM
+CONSULTA 6
+CONSULTA 3
+CONSULTA 3
+CONSULTA 1
+ENTREGA 1 7 O compromisso de amanha esta marcado para as 20 horas. FIM
+ENTREGA 1 2 A prova de aeds vai ser quando? FIM
+CONSULTA 1
+CONSULTA 1
+REMOVE 1
+CONSULTA 1
+CONSULTA 2

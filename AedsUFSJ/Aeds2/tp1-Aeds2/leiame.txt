@@ -1,0 +1,10 @@
+Para execução no linux:
+Para a compilação do servidor de emails execute makefile no terminal.
+
+
+Para execução do windows: 
+Abra o arquivo simulador.dev e execute a compilação padrão do programa. 
+
+
+O arquivo com os comandos de entrada deve ter o nome Comandos.txt e deve ser salvo na pasta raiz do programa.
+
