@@ -1,0 +1,6 @@
+{
+  "database": "./db/db.sqlite",
+  "type": "sqlite",
+  "synchronize": true,
+  "entities": ["**/**/*.model.js"]
+}
