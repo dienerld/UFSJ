@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { SlaugtherService } from '&services/slaugther.service';
+
+import { SlaughterService } from '&services/slaughter.service';
 
 @Component({
   selector: 'app-stalls-list',
-  templateUrl: './slaugther-list.component.html',
-  styleUrls: ['./slaugther-list.component.scss']
+  templateUrl: './slaughter-list.component.html',
+  styleUrls: ['./slaughter-list.component.scss']
 })
-export class SlaugtherListAllComponent implements OnInit {
+export class SlaughterListAllComponent implements OnInit {
   title = 'Abates';
   constructor(
-    private readonly service: SlaugtherService,
+    private readonly service: SlaughterService,
     private readonly serviceTitle: Title
   ) { }
 

@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { SlaugtherService, TSlaugther } from '&services/slaugther.service';
+import { SlaughterService, TSlaughter } from '&services/slaughter.service';
 
 @Component({
   selector: 'app-abates-home',
-  templateUrl: './slaugther-home.component.html',
-  styleUrls: ['./slaugther-home.component.scss']
+  templateUrl: './slaughter-home.component.html',
+  styleUrls: ['./slaughter-home.component.scss']
 })
-export class SlaugtherHomeComponent implements OnInit {
+export class SlaughterHomeComponent implements OnInit {
   title = 'Abates';
   description = 'Ultimo abate de cada baia';
   stalls: any[] = [];
@@ -21,14 +21,14 @@ export class SlaugtherHomeComponent implements OnInit {
   ];
 
   constructor(
-    private readonly service: SlaugtherService,
+    private readonly service: SlaughterService,
     private readonly titleService: Title
   ) {
   }
 
   ngOnInit(): void {
     this.titleService.setTitle(this.title);
-    this.service.getLastTenStalls().subscribe((stalls: TSlaugther[]) => {
+    this.service.getLastTenStalls().subscribe((stalls: TSlaughter[]) => {
       this.stalls = stalls;
     });
   }

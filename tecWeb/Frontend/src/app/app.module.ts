@@ -16,9 +16,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RelatorioComponent } from './pages/relatorio/relatorio.component';
 import { TableComponent } from './components/table/table.component';
-import { SlaugtherHomeComponent } from './pages/Slaugther/index/slaugther-homeabates-home.component';
-import { SlaugtherListAllComponent } from './pages/Slaugther/listAll/slaugther-list.component';
-import { SlaugtherListOneComponent } from './pages/Slaugther/listOne/slaugther-list.component';
+import { SlaughterHomeComponent } from './pages/Slaughter/index/slaughter-homeabates-home.component';
+import { SlaughterListAllComponent } from './pages/Slaughter/listAll/slaughter-list.component';
+import { SlaughterListOneComponent } from './pages/Slaughter/listOne/slaughter-list.component';
 
 @NgModule({
   declarations: [
@@ -26,9 +26,9 @@ import { SlaugtherListOneComponent } from './pages/Slaugther/listOne/slaugther-l
     HomeComponent,
     RelatorioComponent,
     TableComponent,
-    SlaugtherHomeComponent,
-    SlaugtherListAllComponent,
-    SlaugtherListOneComponent
+    SlaughterHomeComponent,
+    SlaughterListAllComponent,
+    SlaughterListOneComponent
   ],
   imports: [
     BrowserModule,
